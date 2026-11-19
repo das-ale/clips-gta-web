@@ -1,0 +1,21 @@
+:root{--fondo:#0d0b14;--texto:#f3eee6;--suave:#a79fb5;--rosa:#ff3d81;--amarillo:#ffd21f;--linea:#2a2436}
+*{box-sizing:border-box;margin:0}
+body{background:var(--fondo);color:var(--texto);font:17px/1.6 "Inter",system-ui,sans-serif;padding:56px 16px 80px}
+main{max-width:720px;margin:0 auto}
+h1{font:400 clamp(44px,9vw,84px)/.95 "Anton",Impact,sans-serif;text-transform:uppercase;letter-spacing:.5px}
+h1 span{color:var(--amarillo)}
+h2{font:400 26px/1.2 "Anton",Impact,sans-serif;text-transform:uppercase;margin:44px 0 10px;color:var(--rosa)}
+p,li{color:var(--texto)}
+p+p{margin-top:12px}
+ul{padding-left:20px;margin-top:8px}
+li+li{margin-top:6px}
+a{color:var(--amarillo)}
+.sub{color:var(--suave);margin-top:18px;max-width:560px}
+.canales{display:grid;gap:14px;margin-top:36px}
+.canal{display:block;border:1px solid var(--linea);border-radius:14px;padding:18px 20px;text-decoration:none;color:var(--texto)}
+.canal b{font:400 24px/1.2 "Anton",Impact,sans-serif;text-transform:uppercase;display:block}
+.canal small{color:var(--suave)}
+.canal:hover{border-color:var(--rosa)}
+footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--linea);color:var(--suave);font-size:14px}
+footer a{color:var(--suave)}
+hr{border:0;border-top:1px solid var(--linea);margin:56px 0}
